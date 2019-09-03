@@ -19,10 +19,10 @@ export default {
         2: '.5rem',
         3: '1rem',
         4: '1.5rem',
-        5: '2.0rem',
-        6: '2.5rem',
-        7: '3.0rem',
-        8: '3.5rem'
+        5: '2rem',
+        6: '3rem',
+        7: '4rem',
+        8: '5rem'
     },
     sansSerif:
         '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',

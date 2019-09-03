@@ -7,7 +7,7 @@ const Links = styled.ul`
     margin: 0;
     padding: 0;
 
-    ${mediaMin.smallDesktop`
+    ${mediaMin.desktop`
         display: block;
     `}
 `;
@@ -15,7 +15,12 @@ const Links = styled.ul`
 const NavLink = styled.li`
     display: inline-block;
     list-style: none;
-    padding: 0rem 2rem;
+    padding: 0rem 1rem;
+    color: #fff;
+
+    a:hover {
+        color: inherit;
+    }
 
     &:first-child {
         padding-left: 0;

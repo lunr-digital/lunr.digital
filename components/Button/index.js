@@ -35,7 +35,8 @@ const COLORS = props => `
             props.color === 'white'
                 ? props.theme.colors[props.theme.color][5]
                 : '#fff'
-        };
+        } !important;
+        text-decoration: none;
     }
 
     

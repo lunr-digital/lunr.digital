@@ -1,11 +1,15 @@
 import { createGlobalStyle } from 'styled-components';
+
 import theme from '../utils/theme';
+
 import reboot from './reboot';
 import utils from './utils';
+import grid from './grid';
 
 const Global = createGlobalStyle`
     ${reboot};
     ${utils};
+    ${grid};
 
     html {
         font-display: swap;
@@ -18,7 +22,6 @@ const Global = createGlobalStyle`
         font-style: normal;
         color: ${theme('textColor')};
     }
-    
 `;
 
 export default Global;

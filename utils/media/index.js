@@ -5,8 +5,8 @@ const breakpoints = {
     mobile: '320px',
     phablet: '420px',
     tablet: '768px',
-    smallDesktop: '992px',
-    desktop: '1280px'
+    desktop: '1024px',
+    widescreen: '1216px'
 };
 
 const mediaMin = Object.keys(breakpoints).reduce((acc, label) => {

@@ -21,7 +21,7 @@ const H1 = styled.h1`
     ${styles};
     font-size: 2rem;
 
-    ${mediaMin.smallDesktop`
+    ${mediaMin.tablet`
         font-size: 2.75rem;
     `}
 `;
@@ -29,19 +29,20 @@ const H1 = styled.h1`
 const H2 = styled.h2`
     ${styles};
     font-size: 1.5rem;
+    margin-bottom: 2rem;
 
-    @media (min-width: 720px) {
+    ${mediaMin.tablet`
         font-size: 2rem;
-    }
+    `}
 `;
 
 const H3 = styled.h3`
     ${styles};
     font-size: 1.25rem;
 
-    @media (min-width: 720px) {
+    ${mediaMin.tablet`
         font-size: 1.5rem;
-    }
+    `}
 `;
 
 const H4 = styled.h4`

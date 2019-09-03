@@ -9,7 +9,7 @@ const P = styled.p`
         props.lead &&
         'font-size: 1.15rem; line-height: 1.44; letter-spacing: 0.01em;'};
 
-    ${mediaMin.smallDesktop`
+    ${mediaMin.desktop`
         ${props =>
             props.lead &&
             'font-size: 1.5rem; line-height: 1.44; letter-spacing: 0.01em;'};
