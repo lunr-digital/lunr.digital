@@ -10,7 +10,7 @@ import Button from '../components/Button';
 import { mediaMin } from '../utils/media';
 import Quote from '../components/Quote';
 import TeamMember from '../components/TeamMember';
-import Input from '../components/Input';
+import ContactForm from '../components/ContactForm';
 
 const SectionRed = styled(Section)`
     padding-top: 2rem !important;
@@ -185,18 +185,33 @@ const Home = () => (
                                 <TeamMember
                                     name="Alex Meah"
                                     picture="/static/team/alex.jpg"
+                                    social={{
+                                        twitter: 'alex_meah',
+                                        github: 'AlexMeah',
+                                        linkedin: 'alex-meah-57165567'
+                                    }}
                                 />
                             </div>
                             <div className="column is-4">
                                 <TeamMember
                                     name="Farzad Qasim"
                                     picture="/static/team/farz.jpg"
+                                    social={{
+                                        twitter: 'iamhtml',
+                                        github: 'farzd',
+                                        linkedin: 'farzad-qasim-131a5063'
+                                    }}
                                 />
                             </div>
                             <div className="column is-4">
                                 <TeamMember
                                     name="Matt Beasley"
                                     picture="/static/team/matt.jpg"
+                                    social={{
+                                        twitter: 'fidgetfive',
+                                        github: 'fidgety',
+                                        linkedin: 'matthew-beasley-71931920'
+                                    }}
                                 />
                             </div>
                         </div>
@@ -207,62 +222,7 @@ const Home = () => (
         <Section id="contact">
             <H2 className="tac">Get in touch</H2>
 
-            <form className="container">
-                <div className="columns is-centered">
-                    <div className="column is-6">
-                        <div className="columns">
-                            <div className="column">
-                                <Input
-                                    name="firstName"
-                                    placeholder="First name"
-                                    required
-                                />
-                            </div>
-                            <div className="column">
-                                <Input
-                                    name="lastName"
-                                    placeholder="Last name"
-                                    required
-                                />
-                            </div>
-                        </div>
-                        <div className="columns">
-                            <div className="column">
-                                <Input
-                                    name="email"
-                                    type="email"
-                                    placeholder="Email address"
-                                    required
-                                />
-                            </div>
-                        </div>
-                        <div className="columns">
-                            <div className="column">
-                                <Input
-                                    name="message"
-                                    rows="5"
-                                    as="textarea"
-                                    placeholder="Message"
-                                    required
-                                    minLength="140"
-                                />
-                            </div>
-                        </div>
-
-                        <input
-                            style={{
-                                display: 'none'
-                            }}
-                            name="ignore"
-                            value=""
-                        />
-
-                        <Button block type="submit">
-                            Send message
-                        </Button>
-                    </div>
-                </div>
-            </form>
+            <ContactForm />
         </Section>
     </div>
 );

@@ -120,6 +120,11 @@ export default class MyDocument extends Document {
                     <Main />
                     <NextScript />
                     <div id="modals" />
+
+                    <script async defer src="https://sa.lunr.digital/app.js" />
+                    <noscript>
+                        <img src="https://sa.lunr.digital/image.gif" alt="" />
+                    </noscript>
                 </body>
             </Html>
         );

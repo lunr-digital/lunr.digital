@@ -57,24 +57,24 @@ const colorMap = {
     info: 'cyan'
 };
 
-const block = css`
+const blockStyles = css`
     display: block;
     width: 100%;
 `;
 
-const Button = styled(({ loading, children, outline, ...props }) => (
+const Button = styled(({ loading, block, children, outline, ...props }) => (
     <button {...props}>{children}</button>
-)).attrs({
-    color: props =>
+)).attrs(props => ({
+    color:
         props.color === 'theme'
             ? props.theme.color
             : colorMap[props.color] || props.color
-})`
+}))`
     display: inline-block;
 
     ${props => SIZES[props.size](props)};
     ${props => COLORS(props)};
-    ${props => props.block && block};
+    ${props => props.block && blockStyles};
     font-family: ${theme('sansSerif')};
     font-weight: bold;
     outline: none;

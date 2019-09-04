@@ -1,5 +1,5 @@
 import { css } from 'styled-components';
-import { getValueAndUnit } from 'polished';
+import { stripUnit } from 'polished';
 
 const breakpoints = {
     mobile: '320px',
@@ -20,7 +20,7 @@ const mediaMin = Object.keys(breakpoints).reduce((acc, label) => {
 }, {});
 
 const mediaMax = Object.keys(breakpoints).reduce((acc, label) => {
-    const [value, unit] = getValueAndUnit(breakpoints[label]);
+    const [value, unit] = stripUnit(breakpoints[label], true);
 
     acc[label] = (...args) => css`
 		@media (max-width: ${value - 1}${unit}) {
