@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import theme from '../../utils/theme';
 import { H4 } from '../typography/headings';
 import { P } from '../typography/copy';
+import brand from '../../utils/brand';
 
 const Container = styled.div`
     max-width: 25rem;
@@ -20,7 +21,7 @@ const Social = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    background: ${theme('colors.red.4')};
+    background: ${brand('5')};
     transition: opacity 0.3s ease-in-out;
     display: none;
     align-items: center;
@@ -54,7 +55,7 @@ const SocialLink = styled.a`
 
     @media (hover: none) {
         display: inline-block;
-        background: ${theme('colors.red.4')};
+        background: ${brand('5')};
         padding: 0.5rem;
         margin: 0 0.5rem 1rem;
         border-radius: ${theme('borderRadius')};

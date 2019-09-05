@@ -11,10 +11,11 @@ import { mediaMin } from '../utils/media';
 import Quote from '../components/Quote';
 import TeamMember from '../components/TeamMember';
 import ContactForm from '../components/ContactForm';
+import brand from '../utils/brand';
 
-const SectionRed = styled(Section)`
+const BrandedSection = styled(Section)`
     padding-top: 2rem !important;
-    background-color: ${theme('colors.red.4')} !important;
+    background-color: ${brand('5')} !important;
     color: #fff;
 
     ${mediaMin.widescreen`
@@ -72,7 +73,7 @@ const Home = () => (
         <Head>
             <title>Lunr Digital - Expert Frontend Development</title>
         </Head>
-        <SectionRed>
+        <BrandedSection>
             <TopNav>
                 <LogoContainer>
                     <img alt="Lunr Digital" src="/static/logo.svg" />
@@ -120,7 +121,7 @@ const Home = () => (
                     </Button>
                 </Pitch>
             </div>
-        </SectionRed>
+        </BrandedSection>
         <Section id="services">
             <div className="container">
                 <div className="columns is-vcentered">

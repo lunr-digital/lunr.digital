@@ -3,7 +3,7 @@ import styled, { css } from 'styled-components';
 import theme from '../../utils/theme';
 
 const errorStyles = css`
-    border-color: ${props => props.theme.colors.red[4]} !important;
+    border-color: ${theme('colors.red.4')} !important;
 `;
 
 const baseStyles = css`

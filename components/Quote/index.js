@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { P } from '../typography/copy';
 import theme from '../../utils/theme';
+import brand from '../../utils/brand';
 
 const Container = styled.blockquote`
     padding: 2rem;
@@ -15,7 +16,7 @@ const Container = styled.blockquote`
         font-family: 'Lucida Grande', Tahoma, Verdana, sans-serif;
         font-size: 5rem;
         line-height: 1;
-        color: ${theme('colors.red.6')};
+        color: ${brand('5')};
         z-index: 0;
         line-height: 0rem;
         margin-top: 2rem;
