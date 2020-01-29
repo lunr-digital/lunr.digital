@@ -12,7 +12,7 @@
   "dependencies": {
     "@sendgrid/mail": "^6.4.0",
     "lodash.get": "^4.4.2",
-    "next": "9.1.7",
+    "next": "9.2.1",
     "open-color": "^1.7.0",
     "polished": "^3.4.2",
     "react": "16.11.0",
