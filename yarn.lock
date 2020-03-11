@@ -929,27 +929,27 @@
   version "0.7.4"
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.4.tgz#a87b4b04e5ae14a88d48ebef15015f6b7d1f5677"
 
-"@sendgrid/client@^6.4.0":
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/@sendgrid/client/-/client-6.4.0.tgz#d58df30adea5d7d09e747e2b61f9f859deeda798"
+"@sendgrid/client@^6.5.3":
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/@sendgrid/client/-/client-6.5.3.tgz#9abbfe2038dd54f8a9a4bffa7da5c1579e299118"
   dependencies:
-    "@sendgrid/helpers" "^6.4.0"
-    "@types/request" "^2.0.3"
+    "@sendgrid/helpers" "^6.5.3"
+    "@types/request" "^2.48.4"
     request "^2.88.0"
 
-"@sendgrid/helpers@^6.4.0":
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/@sendgrid/helpers/-/helpers-6.4.0.tgz#f9001cbe2f34e2c264d30fcf71aa5b9c3cde49aa"
+"@sendgrid/helpers@^6.5.3":
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/@sendgrid/helpers/-/helpers-6.5.3.tgz#60545e077857fa13e5fd295b1b03a5ed9a45f9e3"
   dependencies:
     chalk "^2.0.1"
-    deepmerge "^2.1.1"
+    deepmerge "^4.2.2"
 
-"@sendgrid/mail@^6.4.0":
-  version "6.4.0"
-  resolved "https://registry.yarnpkg.com/@sendgrid/mail/-/mail-6.4.0.tgz#21d022f7fae57dcdc5910eeca5ed318df21e5f51"
+"@sendgrid/mail@^6.5.4":
+  version "6.5.4"
+  resolved "https://registry.yarnpkg.com/@sendgrid/mail/-/mail-6.5.4.tgz#2c5d538742f77b4327e97771829d87213446dce5"
   dependencies:
-    "@sendgrid/client" "^6.4.0"
-    "@sendgrid/helpers" "^6.4.0"
+    "@sendgrid/client" "^6.5.3"
+    "@sendgrid/helpers" "^6.5.3"
 
 "@types/caseless@*":
   version "0.12.2"
@@ -963,9 +963,9 @@
   version "12.7.3"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-12.7.3.tgz#27b3f40addaf2f580459fdb405222685542f907a"
 
-"@types/request@^2.0.3":
-  version "2.48.2"
-  resolved "https://registry.yarnpkg.com/@types/request/-/request-2.48.2.tgz#936374cbe1179d7ed529fc02543deb4597450fed"
+"@types/request@^2.48.4":
+  version "2.48.4"
+  resolved "https://registry.yarnpkg.com/@types/request/-/request-2.48.4.tgz#df3d43d7b9ed3550feaa1286c6eabf0738e6cf7e"
   dependencies:
     "@types/caseless" "*"
     "@types/node" "*"
@@ -2395,9 +2395,9 @@ deep-is@~0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
 
-deepmerge@^2.1.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
+deepmerge@^4.2.2:
+  version "4.2.2"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
 
 defaults@^1.0.3:
   version "1.0.3"
