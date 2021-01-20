@@ -10,7 +10,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "@sendgrid/mail": "^6.4.0",
+    "@sendgrid/mail": "^7.4.2",
     "lodash.get": "^4.4.2",
     "next": "9.1.7",
     "open-color": "^1.7.0",
